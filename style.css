@@ -3,7 +3,6 @@
   padding: 0;
   box-sizing: border-box;
   font-family: Helvetica;
-  width: 1350px;
 }
 
 header {
@@ -14,7 +13,7 @@ header {
   justify-content: center;
   align-items: center;
   gap: 10px;
-  width: 1350px;
+  width: 1200px;
 }
 
 .logo {
