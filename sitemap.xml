@@ -1,1 +1,58 @@
-
+<html>
+  <head>
+    <meta name="google-site-verification" content="WaWmc3o0l8zRZWFDnF5Uz-036Ny-VfQWtU6Pslwryms" />
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" type="x-icon" href="logo store.png"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ONISTORE</title>
+    <link rel="stylesheet" href="style.css" 
+  </head>
+  <body bgcolor=lightblue oncontextmenu="return false;">
+    <header>
+      <h1 class="logo"><a href="https://www.onistore.my.id/">ONISTORE</h1>
+      <nav>
+        <ul>
+          <li><a href="https://www.onistore.my.id/domain.html">DOMAIN</a></li>
+          <li><a href="https://www.onistore.my.id/vps.html">VPS</a></li>
+          <li><a href="https://www.onistore.my.id/allproduk.html">ALL PRODUK</a></li>
+	  <li><a href="https://kontak.onistore.my.id/">KONTAK</a></li>
+        </ul>
+      </nav>
+      <button class="btn-cta" onclick="rediryoutube()">SUBSCRIBE</button>
+    </header>
+    <div class="container">
+      <div class="intro">
+         <marquee align='center' bgcolor='green' width='100%'><h2>UNTUK SEKARANG BELUM ADA PROMO SABAR YAH</h2></marquee>
+        <p class="title">HELLO, WELCOME TO ONISTORE!</p>
+        <p class="description">ONISTORE MENYEDIAKAN BANYAK PRODUK PENCET DI ATAS</p>
+        <p>JIKA ERROR GUNAKAN SITUS DEKSTOP</p>
+        <img src="logo store.png" alt="logo store" class="img-foto"/>
+      </div>
+    </div>
+    <div class="parallax">
+      <div class="tentang">
+        <p class="title">SCRIPT NYA DIJUAL CEK AJA DI DISCORD</p>
+        <p class="description"><a href="https://discord.onistore.my.id"></a></p>
+        <button class="btn-game" onclick="redirdc()"><h3>DISCORD CLICK HERE</h3></button>
+        <br>
+        <button class="btn-game" onclick="redirgames()"><h3>GAMES AREA TUTUP!</h3></button>
+      </div>
+    </div>
+    <footer>
+			<p class="title">&copy; Website By Syaroni/Onistore 2024</p>
+		</footer>
+    <script>
+      function rediryoutube() {
+				window.location.href = "https://youtube.com/@syaroniyt"
+			}
+      function redirgames() {
+        window.location.href = "https://games.onistore.my.id"
+      }
+      function redirdc() {
+        window.location.href = "https://discord.onistore.my.id"
+      }
+      alert ('SCROLL FOR GAMES AREA AND DISCORD')
+    </script>
+    <script src="script.js"></script>
+  </body>
+</html>
