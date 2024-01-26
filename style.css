@@ -100,7 +100,10 @@ a {
 .description {
   font-size: 28px;
   font-weight: bolder;
-  padding: 50px;
+  padding: 10px;
+  display: flex;
+  text-align: center;
+  margin-right: 10px;
 }
 
 .oslogo {
