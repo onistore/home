@@ -99,12 +99,8 @@ a {
 
 .description {
   font-size: 10px;
-  font-weight: bolder;
-  padding: 1px;
   display: flex;
   text-align: center;
-  margin-left: 5px; 
-  gap: 3px;
   width: auto;
 }
 
