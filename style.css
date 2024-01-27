@@ -43,10 +43,10 @@ header {
   margin-right: 10px;
   border: none;
   font-size: 20px;
-  padding: 6px 12px;
+  padding: 5px 10px;
   background: #FFD700;
   color: #1a2238;
-  border-radius: 8px;
+  border-radius: 6px;
   cursor: pointer;
 }
 
