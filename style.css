@@ -31,7 +31,7 @@ header {
 .btn-cta {
   margin-right: 10px;
   border: none;
-  font-size: 20px;
+  font-size: 28px;
   padding: 6px 12px;
   background: #ff0000;
   color: #eaeaea;
@@ -42,7 +42,7 @@ header {
 .btn-game {
   margin-right: 10px;
   border: none;
-  font-size: 20px;
+  font-size: 30px;
   padding: 5px 10px;
   background: #FFD700;
   color: #1a2238;
