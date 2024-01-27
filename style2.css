@@ -85,7 +85,7 @@ body {margin:0; font-family: sans-serif;}
 
 .gambar {width: 90%; display: grid; grid-template-columns: 1fr 1fr 1fr 1fr}
 
-.gambar .foto img{width: 80%; height: 80%;}
+.gambar .foto img{width: 80%;}
 
 .foto {border:1px black; margin:10px; text-align: center;}
 
