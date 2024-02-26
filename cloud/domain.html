@@ -85,6 +85,20 @@ footer {
   align-items: left;
 }
 
+select {
+  margin: auto;
+  width: 200px;
+  background: #ff0;
+  color: #000;
+  text-align: center;
+}
+
+option:not(:checked) {
+  background-color: #fff;
+  text-align: center;
+  width: 200px;
+}
+	    
 .order {
   text-align: center;
 }
@@ -103,7 +117,7 @@ footer {
 	  <li><a href="https://kontak.onistore.my.id/">KONTAK</a></li>
         </ul>
       </nav>
-      <button class="btn-cta" onclick="rediryoutube()">SUBSCRIBE</button>
+      <a href="https://www.youtube.com/@syaroniyt">SUBSCRIBE</a>
     </header>
     <footer>
 			<p class="title">&copy; Website By Syaroni/Onistore 2024</p>
@@ -118,7 +132,6 @@ footer {
 	    <h1>PRODUK</h1>
     <p>PILIH VARIAN </p>
         <select onchange="myFunction(value);">
-	    <optgroup>hallooo</optgroup>
             <option value="satu">SATU</option>
             <option value="dua">DUA</option>
             <option value="tiga">TIGA</option>
