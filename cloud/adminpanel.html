@@ -142,6 +142,7 @@ textarea {
     <p>PILIH VARIAN </p>
         <select onchange="myFunction(value);">
             <option value="satu">ADMIN PANEL</option>
+	    <option value="dua">ADMIN PANEL</option>
         </select>
 	    <br><br>
 <h1>PRICE<h3 id="result"></h3></h1>
@@ -169,8 +170,10 @@ Benefit / Keuntungan Admin Panel :
 	  <script>
 function myFunction($value)
 {       
-    if($value=="satu")
-    {document.getElementById("result").innerHTML = "Rp.20.000";}
+    else if($value=="satu")
+    {document.getElementById("result").innerHTML = "Rp.40.000";}
+    else if($value=="dua")
+    {document.getElementById("result").innerHTML = "Rp.40.000";}
 }
 </script>
   </body>
