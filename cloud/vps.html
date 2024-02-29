@@ -3,7 +3,7 @@
     <meta charset="utf-8" />
     <link rel="shortcut icon" type="x-icon" href="https://www.onistore.my.id/logo%20store.png"/>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>VIRTUAL PRIVATE SERVER</title>
+    <title>DOMAIN</title>
     <style>
 	*, html, body {
   margin: 0;
@@ -85,8 +85,32 @@ footer {
   align-items: left;
 }
 
+select {
+  margin: auto;
+  width: 200px;
+  background: #ff0;
+  color: #000;
+  text-align: center;
+}
+
+option:not(:checked) {
+  background-color: #fff;
+  text-align: center;
+  width: 200px;
+}
+	    
 .order {
   text-align: center;
+}
+
+img {
+	width: 30vh;
+	height: 40vh;
+}
+
+textarea {
+	width: 35vh;
+	height: 40vh;
 }
 
 </style>
@@ -103,20 +127,80 @@ footer {
 	  <li><a href="https://kontak.onistore.my.id/">KONTAK</a></li>
         </ul>
       </nav>
-      <button class="btn-cta" onclick="rediryoutube()">SUBSCRIBE</button>
+      <a class="btn-cta" href="https://www.youtube.com/@syaroniyt">SUBSCRIBE</a>
     </header>
     <footer>
 			<p class="title">&copy; Website By Syaroni/Onistore 2024</p>
 		</footer>
 <div class="container">
     <div class="info">
-    <img src="ff.png" width="300" height="400">
+    <img src="https://image.onistore.my.id/domain.png">
     </div>
-	<div>
-	</div>
+	
     <div class="order">
-    <h1>PRODUK</h1>
+	    <h1>PRODUK</h1>
+    <p>PILIH VARIAN </p>
+        <select onchange="myFunction(value);">
+            <option value="satu">1GB 1CORE STORAGE 25GB</option>
+            <option value="dua">2GB 1CORE STORAGE 50GB</option>
+            <option value="tiga">2GB 2CORE STORAGE 60GB</option>
+	    <option value="empat">4GB 2CORE STORAGE 80GB</option>
+	    <option value="lima">8GB 4CORE STORAGE 160GB</option>
+            <option value="enam">16GB 8CORE STORAGE 320GB</option>
+            <option value="tuju">32GB 12CORE STORAGE 640GB</option>
+        </select>
+	    <br><br>
+<h1>PRICE<h3 id="result"></h3></h1>
     </div>
 </div>
+<div class="container">
+	<div>
+	<h3 align="center">NOTE</h3>
+<textarea disabled>
+* HARGA BISA BERUBAH
+* NO REFFUND
+* TANYA KETERSEDIAAN
+* NO GARANSI
+* JIKA ERROR ATAU RUSAK, BUKAN TANGGUNG JAWAB KAMI
+
+KEGUNAAN?
+UNTUK MEMBUAT PANEL SERVER MINECRAFT
+DAN MASIH BANYAK LAGI...
+
+SISTEM OPERASI
+- CentOS
+- Ubuntu
+- Debian
+INTEL XEON
+REG SG/JP
+</textarea>	
+</div>
+	<div class="order">
+<h1>INGIN BELI? CLICK DI BAWAH</h1>
+<a class="btn-cta" href="https://www.onistore.my.id/onistore/cekout.html">CHECKOUT</a>
+	</div>
+</div>
+
+
+	  
+	  <script>
+function myFunction($value)
+{       
+    if($value=="satu")
+    {document.getElementById("result").innerHTML = "Rp.17.000";}
+    else if($value=="dua")
+    {document.getElementById("result").innerHTML = "Rp.27.000";}
+     else if($value=="tiga")
+    {document.getElementById("result").innerHTML = "Rp.35.000";}
+    else if($value=="empat")
+    {document.getElementById("result").innerHTML = "Rp.40.000";}
+    else if($value=="lima")
+    {document.getElementById("result").innerHTML = "Rp.55.000";}
+     else if($value=="enam")
+    {document.getElementById("result").innerHTML = "Rp.115.000";}
+    else if($value=="tuju")
+    {document.getElementById("result").innerHTML = "Rp.225.000";}
+}
+</script>
   </body>
 </html>
