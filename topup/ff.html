@@ -3,7 +3,7 @@
     <meta charset="utf-8" />
     <link rel="shortcut icon" type="x-icon" href="https://www.onistore.my.id/logo%20store.png"/>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>VIRTUAL PRIVATE SERVER</title>
+    <title>DOMAIN</title>
     <style>
 	*, html, body {
   margin: 0;
@@ -85,8 +85,32 @@ footer {
   align-items: left;
 }
 
+select {
+  margin: auto;
+  width: 200px;
+  background: #ff0;
+  color: #000;
+  text-align: center;
+}
+
+option:not(:checked) {
+  background-color: #fff;
+  text-align: center;
+  width: 200px;
+}
+	    
 .order {
   text-align: center;
+}
+
+img {
+	width: 30vh;
+	height: 40vh;
+}
+
+textarea {
+	width: 35vh;
+	height: 40vh;
 }
 
 </style>
@@ -103,20 +127,143 @@ footer {
 	  <li><a href="https://kontak.onistore.my.id/">KONTAK</a></li>
         </ul>
       </nav>
-      <button class="btn-cta" onclick="rediryoutube()">SUBSCRIBE</button>
+      <a class="btn-cta" href="https://www.youtube.com/@syaroniyt">SUBSCRIBE</a>
     </header>
     <footer>
 			<p class="title">&copy; Website By Syaroni/Onistore 2024</p>
 		</footer>
 <div class="container">
     <div class="info">
-    <img src="ff.png" width="300" height="400">
+    <img src="https://image.onistore.my.id/domain.png">
     </div>
-	<div>
-	</div>
+	
     <div class="order">
-    <h1>PRODUK</h1>
+	    <h1>PRODUK</h1>
+    <p>PILIH VARIAN </p>
+        <select onchange="myFunction(value);">
+            <option value="satu">5 DIAMOND</option>
+            <option value="dua">10 DIAMOND</option>
+            <option value="tiga">50 DIAMOND</option>
+	    <option value="empat">70 DIAMOND</option>
+	    <option value="lima">80 DIAMOND</option>
+            <option value="enam">100 DIAMOND</option>
+            <option value="tuju">140 DIAMOND</option>
+	    <option value="delapan">150 DIAMOND</option>
+	    <option value="sembilan">200 DIAMOND</option>
+            <option value="sepuluh">280 DIAMOND</option>
+            <option value="sebelas">300 DIAMOND</option>
+	    <option value="duabelas">355 DIAMOND</option>
+	    <option value="tigabelas">400 DIAMOND</option>
+            <option value="empatbelas">420 DIAMOND</option>
+            <option value="limabelas">500 DIAMOND</option>
+	    <option value="enambelas">565 DIAMOND</option>
+            <option value="tujubelas">600 DIAMOND</option>
+	    <option value="delapanbelas">635 DIAMOND</option>
+	    <option value="sembilanbelas">700 DIAMOND</option>
+            <option value="duapuluh">720 DIAMOND</option>
+            <option value="duasatu">800 DIAMOND</option>
+	    <option value="duadua">860 DIAMOND</option>
+	    <option value="duatiga">900 DIAMOND</option>
+            <option value="duaempat">930 DIAMOND</option>
+            <option value="dualima">1000 DIAMOND</option>
+	    <option value="duaenam">1080 DIAMOND</option>
+            <option value="duatuju">1450 DIAMOND</option>
+	    <option value="duadelapan">2180 DIAMOND</option>
+	    <option value="duasembilan">7290 DIAMOND</option>
+            <option value="tigapuluh">36500 DIAMOND</option>
+            <option value="tigasatu">73100 DIAMOND</option>
+        </select>
+	    <br><br>
+<h1>PRICE<h3 id="result"></h3></h1>
     </div>
 </div>
+<div class="container">
+	<div>
+	<h3 align="center">NOTE</h3>
+<textarea disabled>
+* HARGA BISA BERUBAH KAPAN SAJA
+* TOP UP VIA ID
+* PROSES 5-20 MENIT
+* AMAN TERMURAH
+* PALING LAMA 24 JAM
+</textarea>	
+</div>
+	<div class="order">
+<h1>INGIN BELI? CLICK DI BAWAH</h1>
+<a class="btn-cta" href="https://www.onistore.my.id/onistore/cekout.html">CHECKOUT</a>
+	</div>
+</div>
+
+
+	  
+	  <script>
+function myFunction($value)
+{       
+    if($value=="satu")
+    {document.getElementById("result").innerHTML = "Rp.950";}
+    else if($value=="dua")
+    {document.getElementById("result").innerHTML = "Rp.1.850";}
+     else if($value=="tiga")
+    {document.getElementById("result").innerHTML = "Rp.7.450";}
+    else if($value=="empat")
+    {document.getElementById("result").innerHTML = "Rp.9.900";}
+    else if($value=="lima")
+    {document.getElementById("result").innerHTML = "Rp.12.000";}
+     else if($value=="enam")
+    {document.getElementById("result").innerHTML = "Rp.14.000";}
+    else if($value=="tuju")
+    {document.getElementById("result").innerHTML = "Rp.20.000";}
+     else if($value=="delapan")
+    {document.getElementById("result").innerHTML = "Rp.21.500";}
+    else if($value=="sembilan")
+    {document.getElementById("result").innerHTML = "Rp.29.000";}
+    else if($value=="sepuluh")
+    {document.getElementById("result").innerHTML = "Rp.39.000";}
+     else if($value=="sebelas")
+    {document.getElementById("result").innerHTML = "Rp.44.000";}
+    else if($value=="duabelas")
+    {document.getElementById("result").innerHTML = "Rp.49.000";}
+    else if($value=="tigabelas")
+    {document.getElementById("result").innerHTML = "Rp.58.000";}
+     else if($value=="empatbelas")
+    {document.getElementById("result").innerHTML = "Rp.63.000";}
+    else if($value=="limabelas")
+    {document.getElementById("result").innerHTML = "Rp.72.000";}
+    else if($value=="enambelas")
+    {document.getElementById("result").innerHTML = "Rp.78.000";}
+     else if($value=="tujubelas")
+    {document.getElementById("result").innerHTML = "Rp.86.000";}
+    else if($value=="delapanbelas")
+    {document.getElementById("result").innerHTML = "Rp.88.000";}
+    else if($value=="sembilanbelas")
+    {document.getElementById("result").innerHTML = "Rp.97.000";}
+     else if($value=="duapuluh")
+    {document.getElementById("result").innerHTML = "Rp.99.000";}
+    else if($value=="duasatu")
+    {document.getElementById("result").innerHTML = "Rp.109.000";}
+     else if($value=="duadua")
+    {document.getElementById("result").innerHTML = "Rp.117.000";}
+    else if($value=="duatiga")
+    {document.getElementById("result").innerHTML = "Rp.123.000";}
+    else if($value=="duaempat")
+    {document.getElementById("result").innerHTML = "Rp.127.000";}
+     else if($value=="dualima")
+    {document.getElementById("result").innerHTML = "Rp.137.000";}
+    else if($value=="duaenam")
+    {document.getElementById("result").innerHTML = "Rp.147.000";}
+    else if($value=="duatuju")
+    {document.getElementById("result").innerHTML = "Rp.198.000";}
+     else if($value=="duadelapan")
+    {document.getElementById("result").innerHTML = "Rp.298.000";}
+    else if($value=="duasembilan")
+    {document.getElementById("result").innerHTML = "Rp.980.000";}
+    else if($value=="tigapuluh")
+    {document.getElementById("result").innerHTML = "Rp.4.990.000";}
+    else if($value=="tigasatu")
+    {document.getElementById("result").innerHTML = "Rp.9.950.000";}
+
+}
+</script>
+	  <script src="https://www.onistore.my.id/form.js"></script>
   </body>
 </html>
