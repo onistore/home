@@ -3,7 +3,7 @@
     <meta charset="utf-8" />
     <link rel="shortcut icon" type="x-icon" href="https://www.onistore.my.id/logo%20store.png"/>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>VIRTUAL PRIVATE SERVER</title>
+    <title>TOPUP VALORANT</title>
     <style>
 	*, html, body {
   margin: 0;
@@ -85,8 +85,32 @@ footer {
   align-items: left;
 }
 
+select {
+  margin: auto;
+  width: 200px;
+  background: #ff0;
+  color: #000;
+  text-align: center;
+}
+
+option:not(:checked) {
+  background-color: #fff;
+  text-align: center;
+  width: 200px;
+}
+	    
 .order {
   text-align: center;
+}
+
+img {
+	width: 30vh;
+	height: 40vh;
+}
+
+textarea {
+	width: 35vh;
+	height: 40vh;
 }
 
 </style>
@@ -103,20 +127,83 @@ footer {
 	  <li><a href="https://kontak.onistore.my.id/">KONTAK</a></li>
         </ul>
       </nav>
-      <button class="btn-cta" onclick="rediryoutube()">SUBSCRIBE</button>
+      <a class="btn-cta" href="https://www.youtube.com/@syaroniyt">SUBSCRIBE</a>
     </header>
     <footer>
 			<p class="title">&copy; Website By Syaroni/Onistore 2024</p>
 		</footer>
 <div class="container">
     <div class="info">
-    <img src="ff.png" width="300" height="400">
+    <img src="https://image.onistore.my.id/valo.png">
     </div>
-	<div>
-	</div>
+	
     <div class="order">
-    <h1>PRODUK</h1>
+	    <h1>PRODUK</h1>
+    <p>PILIH VARIAN </p>
+        <select onchange="myFunction(value);">
+            <option value="satu">420 POINTS</option>
+            <option value="dua">700 POINTS</option>
+            <option value="tiga">1125 POINTS</option>
+	    <option value="empat">1375 POINTS</option>
+	    <option value="lima">1650 POINTS</option>
+            <option value="enam">2400 POINTS</option>
+            <option value="tuju">3400 POINTS</option>
+	    <option value="delapan">4000 POINTS</option>
+	    <option value="sembilan">5350 POINTS</option>
+            <option value="sepuluh">7000 POINTS</option>
+            <option value="sebelas">8150 POINTS</option>
+        </select>
+	    <br><br>
+<h1>PRICE<h3 id="result"></h3></h1>
     </div>
 </div>
+<div class="container">
+	<div>
+	<h3 align="center">NOTE</h3>
+<textarea disabled>
+* HARGA BISA BERUBAH KAPAN SAJA
+* TOP UP VIA UID DAN ZONE ID
+* PROSES 10-25 MENIT
+* AMAN TERMURAH
+* PALING LAMA 24 JAM
+</textarea>	
+</div>
+	<div class="order">
+<h1>INGIN BELI? CLICK DI BAWAH</h1>
+<a class="btn-cta" href="https://www.onistore.my.id/onistore/cekout.html">CHECKOUT</a>
+	</div>
+</div>
+
+
+	  
+	  <script>
+function myFunction($value)
+{       
+    if($value=="satu")
+    {document.getElementById("result").innerHTML = "Rp.53.000";}
+    else if($value=="dua")
+    {document.getElementById("result").innerHTML = "Rp.84.500";}
+     else if($value=="tiga")
+    {document.getElementById("result").innerHTML = "Rp.106.100";}
+    else if($value=="empat")
+    {document.getElementById("result").innerHTML = "Rp.150.000";}
+    else if($value=="lima")
+    {document.getElementById("result").innerHTML = "Rp.165.500";}
+     else if($value=="enam")
+    {document.getElementById("result").innerHTML = "Rp.256.000";}
+    else if($value=="tuju")
+    {document.getElementById("result").innerHTML = "Rp.300.000";}
+     else if($value=="delapan")
+    {document.getElementById("result").innerHTML = "Rp.450.500";}
+    else if($value=="sembilan")
+    {document.getElementById("result").innerHTML = "Rp.475.000";}
+    else if($value=="sepuluh")
+    {document.getElementById("result").innerHTML = "Rp.600.000";}
+     else if($value=="sebelas")
+    {document.getElementById("result").innerHTML = "Rp.807.000";}
+
+}
+</script>
+	  <script src="https://www.onistore.my.id/form.js"></script>
   </body>
 </html>
