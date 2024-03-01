@@ -3,7 +3,7 @@
     <meta charset="utf-8" />
     <link rel="shortcut icon" type="x-icon" href="https://www.onistore.my.id/logo%20store.png"/>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>VIRTUAL PRIVATE SERVER</title>
+    <title>TOPUP GENSHIN IMPACT</title>
     <style>
 	*, html, body {
   margin: 0;
@@ -85,8 +85,32 @@ footer {
   align-items: left;
 }
 
+select {
+  margin: auto;
+  width: 200px;
+  background: #ff0;
+  color: #000;
+  text-align: center;
+}
+
+option:not(:checked) {
+  background-color: #fff;
+  text-align: center;
+  width: 200px;
+}
+	    
 .order {
   text-align: center;
+}
+
+img {
+	width: 30vh;
+	height: 40vh;
+}
+
+textarea {
+	width: 35vh;
+	height: 40vh;
 }
 
 </style>
@@ -103,20 +127,92 @@ footer {
 	  <li><a href="https://kontak.onistore.my.id/">KONTAK</a></li>
         </ul>
       </nav>
-      <button class="btn-cta" onclick="rediryoutube()">SUBSCRIBE</button>
+      <a class="btn-cta" href="https://www.youtube.com/@syaroniyt">SUBSCRIBE</a>
     </header>
     <footer>
 			<p class="title">&copy; Website By Syaroni/Onistore 2024</p>
 		</footer>
 <div class="container">
     <div class="info">
-    <img src="ff.png" width="300" height="400">
+    <img src="https://image.onistore.my.id/genshin.png">
     </div>
-	<div>
-	</div>
+	
     <div class="order">
-    <h1>PRODUK</h1>
+	    <h1>PRODUK</h1>
+    <p>PILIH VARIAN </p>
+        <select onchange="myFunction(value);">
+            <option value="satu">60 CRYSTALS</option>
+            <option value="dua">330 CRYSTALS</option>
+            <option value="tiga">1090 CRYSTALS</option>
+	    <option value="empat">2240 CRYSTALS</option>
+	    <option value="lima">3880 CRYSTALS</option>
+            <option value="enam">1X BLESSING</option>
+            <option value="tuju">2X BLESSING</option>
+	    <option value="delapan">3X BLESSING</option>
+	    <option value="sembilan">4X BLESSING</option>
+            <option value="sepuluh">5X BLESSING</option>
+        </select>
+	    <br><br>
+<h1>PRICE<h3 id="result"></h3></h1>
     </div>
 </div>
+<div class="container">
+	<div>
+	<h3 align="center">NOTE</h3>
+<textarea disabled>
+* HARGA BISA BERUBAH KAPAN SAJA
+* TOP UP VIA UID DAN ZONE ID
+* PROSES 10-25 MENIT
+* AMAN TERMURAH
+* PALING LAMA 24 JAM
+</textarea>	
+</div>
+	<div class="order">
+<h1>INGIN BELI? CLICK DI BAWAH</h1>
+<a class="btn-cta" href="https://www.onistore.my.id/onistore/cekout.html">CHECKOUT</a>
+	</div>
+</div>
+
+
+	  
+	  <script>
+function myFunction($value)
+{       
+    if($value=="satu")
+    {document.getElementById("result").innerHTML = "Rp.1.550";}
+    else if($value=="dua")
+    {document.getElementById("result").innerHTML = "Rp.3.700";}
+     else if($value=="tiga")
+    {document.getElementById("result").innerHTML = "Rp.8.420";}
+    else if($value=="empat")
+    {document.getElementById("result").innerHTML = "Rp.12.000";}
+    else if($value=="lima")
+    {document.getElementById("result").innerHTML = "Rp.15.000";}
+     else if($value=="enam")
+    {document.getElementById("result").innerHTML = "Rp.24.000";}
+    else if($value=="tuju")
+    {document.getElementById("result").innerHTML = "Rp.48.000";}
+     else if($value=="delapan")
+    {document.getElementById("result").innerHTML = "Rp.68.500";}
+    else if($value=="sembilan")
+    {document.getElementById("result").innerHTML = "Rp.86.000";}
+    else if($value=="sepuluh")
+    {document.getElementById("result").innerHTML = "Rp.115.000";}
+     else if($value=="sebelas")
+    {document.getElementById("result").innerHTML = "Rp.158.000";}
+    else if($value=="duabelas")
+    {document.getElementById("result").innerHTML = "Rp.242.000";}
+    else if($value=="tigabelas")
+    {document.getElementById("result").innerHTML = "Rp.525.000";}
+     else if($value=="empatbelas")
+    {document.getElementById("result").innerHTML = "Rp.1.260.000";}
+    else if($value=="limabelas")
+    {document.getElementById("result").innerHTML = "Rp.30.000";}
+    else if($value=="enambelas")
+    {document.getElementById("result").innerHTML = "Rp.150.000";}
+
+}
+</script>
+	  <script src="https://www.onistore.my.id/form.js"></script>
   </body>
 </html>
