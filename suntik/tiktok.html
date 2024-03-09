@@ -3,7 +3,7 @@
     <meta charset="utf-8" />
     <link rel="shortcut icon" type="x-icon" href="https://www.onistore.my.id/logo%20store.png"/>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>VIRTUAL PRIVATE SERVER</title>
+    <title>REMOTE DESKTOP PROTOCOL</title>
     <style>
 	*, html, body {
   margin: 0;
@@ -85,8 +85,32 @@ footer {
   align-items: left;
 }
 
+select {
+  margin: auto;
+  width: 200px;
+  background: #ff0;
+  color: #000;
+  text-align: center;
+}
+
+option:not(:checked) {
+  background-color: #fff;
+  text-align: center;
+  width: 250px;
+}
+	    
 .order {
   text-align: center;
+}
+
+img {
+	width: 30vh;
+	height: 40vh;
+}
+
+textarea {
+	width: 35vh;
+	height: 40vh;
 }
 
 </style>
@@ -103,20 +127,83 @@ footer {
 	  <li><a href="https://kontak.onistore.my.id/">KONTAK</a></li>
         </ul>
       </nav>
-      <button class="btn-cta" onclick="rediryoutube()">SUBSCRIBE</button>
+      <a class="btn-cta" href="https://www.youtube.com/@syaroniyt">SUBSCRIBE</a>
     </header>
     <footer>
 			<p class="title">&copy; Website By Syaroni/Onistore 2024</p>
 		</footer>
 <div class="container">
     <div class="info">
-    <img src="ff.png" width="300" height="400">
+    <img src="https://image.onistore.my.id/tiktok.png">
     </div>
-	<div>
-	</div>
+	
     <div class="order">
-    <h1>PRODUK</h1>
+	    <h1>PRODUK</h1>
+    <p>PILIH VARIAN </p>
+        <select onchange="myFunction(value);">
+            <option value="satu">100 FOLLOWERS SPEED LOW</option>
+            <option value="dua">100 FOLLOWERS SPEED FAST</option>
+            <option value="tiga">50 FOLLOWERS HIGH QUALITY</option>
+	    <option value="empat">100 LIKE LOW QUALITY</option>
+	    <option value="lima">100 LIKE HIGH QUALITY</option>
+            <option value="enam">2000 VIEWS</option>
+            <option value="tuju">100 LIVESTREAM LIKE</option>
+	    <option value="delapan">100 LIVESTREAM VIEWS 15MENIT</option>
+	    <option value="sembilan">100 LIVESTREAM VIEWS 15MENIT 50%LIKE</option>
+	    <option value="sepuluh">100 LIVESTREAM VIEWS 30MENIT</option>
+	    <option value="sebelas">100 LIVESTREAM VIEWS 30MENIT 50%LIKE</option>
+	    <option value="duabelas">100 FOOLOWERS INDO</option>
+	    <option value="tigabelas">100 LIKE INDO</option>
+        </select>
+	    <br><br>
+<h1>PRICE<h3 id="result"></h3></h1>
     </div>
 </div>
+<div class="container">
+	<div>
+	<h3 align="center">NOTE</h3>
+<textarea disabled>
+BERLAKU KELIPATAN
+	
+DESKRIPSI CEK AJA DI DISCORD
+</textarea>	
+</div>
+	<div class="order">
+<h1>INGIN BELI? CLICK DI BAWAH</h1>
+<a class="btn-cta" href="https://www.onistore.my.id/onistore/cekout.html">CHECKOUT</a>
+	</div>
+</div>
+
+
+	  
+	  <script>
+function myFunction($value)
+{       
+    if($value=="satu")
+    {document.getElementById("result").innerHTML = "Rp.20.000";}
+    else if($value=="dua")
+    {document.getElementById("result").innerHTML = "Rp.30.000";}
+     else if($value=="tiga")
+    {document.getElementById("result").innerHTML = "Rp.40.000";}
+    else if($value=="empat")
+    {document.getElementById("result").innerHTML = "Rp.50.000";}
+    else if($value=="lima")
+    {document.getElementById("result").innerHTML = "Rp.65.000";}
+     else if($value=="enam")
+    {document.getElementById("result").innerHTML = "Rp.125.000";}
+    else if($value=="tuju")
+    {document.getElementById("result").innerHTML = "Rp.235.000";}
+    else if($value=="delapan")
+    {document.getElementById("result").innerHTML = "Rp.30.000";}
+     else if($value=="sembilan")
+    {document.getElementById("result").innerHTML = "Rp.40.000";}
+    else if($value=="sepuluh")
+    {document.getElementById("result").innerHTML = "Rp.50.000";}
+    else if($value=="lima")
+    {document.getElementById("result").innerHTML = "Rp.65.000";}
+     else if($value=="enam")
+    {document.getElementById("result").innerHTML = "Rp.125.000";}
+}
+</script>
   </body>
 </html>
