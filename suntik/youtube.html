@@ -3,7 +3,7 @@
     <meta charset="utf-8" />
     <link rel="shortcut icon" type="x-icon" href="https://www.onistore.my.id/logo%20store.png"/>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>VIRTUAL PRIVATE SERVER</title>
+    <title>SUNTIK YOUTUBE</title>
     <style>
 	*, html, body {
   margin: 0;
@@ -85,8 +85,32 @@ footer {
   align-items: left;
 }
 
+select {
+  margin: auto;
+  width: 200px;
+  background: #ff0;
+  color: #000;
+  text-align: center;
+}
+
+option:not(:checked) {
+  background-color: #fff;
+  text-align: center;
+  width: 200px;
+}
+	    
 .order {
   text-align: center;
+}
+
+img {
+	width: 30vh;
+	height: 40vh;
+}
+
+textarea {
+	width: 35vh;
+	height: 40vh;
 }
 
 </style>
@@ -103,20 +127,68 @@ footer {
 	  <li><a href="https://kontak.onistore.my.id/">KONTAK</a></li>
         </ul>
       </nav>
-      <button class="btn-cta" onclick="rediryoutube()">SUBSCRIBE</button>
+      <a class="btn-cta" href="https://www.youtube.com/@syaroniyt">SUBSCRIBE</a>
     </header>
     <footer>
 			<p class="title">&copy; Website By Syaroni/Onistore 2024</p>
 		</footer>
 <div class="container">
     <div class="info">
-    <img src="ff.png" width="300" height="400">
+    <img src="https://image.onistore.my.id/yt.png">
     </div>
-	<div>
-	</div>
+	
     <div class="order">
-    <h1>PRODUK</h1>
+	    <h1>PRODUK</h1>
+    <p>PILIH VARIAN </p>
+        <select onchange="myFunction(value);">
+            <option value="satu">100 SUBSCRIBE</option>
+            <option value="dua">100 SHORT LIKE</option>
+            <option value="tiga">100 SHORT VIEWS</option>
+	    <option value="empat">1000 JAM TAYANG</option>
+	    <option value="lima">100 LIKE</option>
+            <option value="enam">500 DISLIKE</option>
+        </select>
+	    <br><br>
+<h1>PRICE<h3 id="result"></h3></h1>
     </div>
 </div>
+<div class="container">
+	<div>
+	<h3 align="center">NOTE</h3>
+<textarea disabled>
+NOTE
+* bayar terlebih dahulu
+* tanya ketersediaan produk
+* jumlah bisa custom
+* hanya dengan link
+* no refund
+* 20day refill
+</textarea>	
+</div>
+	<div class="order">
+<h1>INGIN BELI? CLICK DI BAWAH</h1>
+<a class="btn-cta" href="https://www.onistore.my.id/onistore/cekout.html">CHECKOUT</a>
+	</div>
+</div>
+
+
+	  
+	  <script>
+function myFunction($value)
+{       
+    if($value=="satu")
+    {document.getElementById("result").innerHTML = "Rp.10.000";}
+    else if($value=="dua")
+    {document.getElementById("result").innerHTML = "Rp.5.000";}
+     else if($value=="tiga")
+    {document.getElementById("result").innerHTML = "Rp.4.000";}
+    else if($value=="empat")
+    {document.getElementById("result").innerHTML = "Rp.72.000";}
+    else if($value=="lima")
+    {document.getElementById("result").innerHTML = "Rp.4.500";}
+     else if($value=="enam")
+    {document.getElementById("result").innerHTML = "Rp.8.000";}
+}
+</script>
   </body>
 </html>
