@@ -3,9 +3,9 @@
     <meta charset="utf-8" />
     <link rel="shortcut icon" type="x-icon" href="https://www.onistore.my.id/logo%20store.png"/>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>VIRTUAL PRIVATE SERVER</title>
+    <title>NETFLIX PREMIUM</title>
     <style>
-	*, html, body {
+    *, html, body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -62,7 +62,7 @@ li a {
 }
 
 li a:hover {
-  color:	#ff6a3d;
+  color:    #ff6a3d;
   transform: rotate(3deg);
 }
 
@@ -72,21 +72,45 @@ a {
 }
 
 footer {
-	padding: 0px;
-	text-align: center;
-	background: #1A2238;
-	color: #eaeaea;
-  	width: auto;
+    padding: 0px;
+    text-align: center;
+    background: #1A2238;
+    color: #eaeaea;
+    width: auto;
 }
 
 .container {width: 95%; display: grid; grid-template-columns: 1fr 1fr 1fr 1fr;}
-	    
+        
 .info {
   align-items: left;
 }
 
+select {
+  margin: auto;
+  width: 200px;
+  background: #ff0;
+  color: #000;
+  text-align: center;
+}
+
+option:not(:checked) {
+  background-color: #fff;
+  text-align: center;
+  width: 200px;
+}
+        
 .order {
   text-align: center;
+}
+
+img {
+    width: 30vh;
+    height: 40vh;
+}
+
+textarea {
+    width: 35vh;
+    height: 40vh;
 }
 
 </style>
@@ -98,25 +122,86 @@ footer {
         <ul>
           <li><a href="https://www.onistore.my.id/cloud/">CLOUDS</a></li>
           <li><a href="https://www.onistore.my.id/topup/">TOP UP GAME</a></li>
-	  <li><a href="https://www.onistore.my.id/suntik/">SUNTIK SOSMED</a></li>
+      <li><a href="https://www.onistore.my.id/suntik/">SUNTIK SOSMED</a></li>
           <li><a href="https://www.onistore.my.id/allproduk/">ALL PRODUK</a></li>
-	  <li><a href="https://kontak.onistore.my.id/">KONTAK</a></li>
+      <li><a href="https://kontak.onistore.my.id/">KONTAK</a></li>
         </ul>
       </nav>
-      <button class="btn-cta" onclick="rediryoutube()">SUBSCRIBE</button>
+      <a class="btn-cta" href="https://www.youtube.com/@syaroniyt">SUBSCRIBE</a>
     </header>
     <footer>
-			<p class="title">&copy; Website By Syaroni/Onistore 2024</p>
-		</footer>
+            <p class="title">&copy; Website By Syaroni/Onistore 2024</p>
+        </footer>
 <div class="container">
     <div class="info">
-    <img src="ff.png" width="300" height="400">
+    <img src="https://image.onistore.my.id/netflixprem.png">
     </div>
-	<div>
-	</div>
+    
     <div class="order">
-    <h1>PRODUK</h1>
+        <h1>PRODUK</h1>
+    <p>PILIH VARIAN </p>
+        <select onchange="myFunction(value);">
+            <option value="satu">sharing 1P2U 1BULAN</option>
+            <option value="dua">sharing 1P2U 2BULAN</option>
+            <option value="tiga">sharing 1P2U 3BULAN</option>
+            <option value="empat">private 1P1U 1BULAN</option>
+	    <option value="lima">private 1P1U 2BULAN</option>
+            <option value="enam">private 1P1U 3BULAN</option>
+            <option value="tuju">semi 2 device 1BULAN</option>
+            <option value="delapan">private 1BULAN</option>
+        </select>
+        <br><br>
+<h1>PRICE<h3 id="result"></h3></h1>
     </div>
 </div>
+<div class="container">
+    <div>
+    <h3 align="center">NOTE</h3>
+<textarea disabled>
+* Tanya ketersediaan produk
+* bayar terlebih dahulu
+* durasi 1 bulan
+* no vpn
+* garansi 100%
+* all device
+* bisa tv laptop hp dll
+
+1P2U = 1 PROFIL 2 USER
+1P1U = 1 PROFIL 1 USER
+
+SEMI 2 DEVICE
+* login 2 device
+* bisa req pin
+</textarea> 
+</div>
+    <div class="order">
+<h1>INGIN BELI? CLICK DI BAWAH</h1>
+<a class="btn-cta" href="https://www.onistore.my.id/onistore/cekout.html">CHECKOUT</a>
+    </div>
+</div>
+
+
+      
+      <script>
+function myFunction($value)
+{       
+    if($value=="satu")
+    {document.getElementById("result").innerHTML = "Rp.22.000";}
+    else if($value=="dua")
+    {document.getElementById("result").innerHTML = "Rp.40.000";}
+     else if($value=="tiga")
+    {document.getElementById("result").innerHTML = "Rp.55.000";}
+    else if($value=="empat")
+    {document.getElementById("result").innerHTML = "Rp.33.000";}
+    else if($value=="lima")
+    {document.getElementById("result").innerHTML = "Rp.65.000";}
+     else if($value=="enam")
+    {document.getElementById("result").innerHTML = "Rp.90.000";}
+    else if($value=="tuju")
+    {document.getElementById("result").innerHTML = "Rp.40.000";}
+    else if($value=="delapan")
+    {document.getElementById("result").innerHTML = "Rp.130.000";}
+}
+</script>
   </body>
 </html>
