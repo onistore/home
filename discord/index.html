@@ -1,0 +1,185 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" type="x-icon" href="https://www.onistore.my.id/logo%20store.png"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>DISCORD PRODUCK</title>
+    <style>
+    *, html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Helvetica;
+}
+
+header {
+  background: #1a2238;
+  color: #eaeaea;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: auto;
+}
+
+.logo {
+  margin-right: auto;
+  margin-left: 10px;
+  cursor: pointer;
+  transition: all .5s ease 0s;
+}
+
+.logo:hover {
+  color: #FFD700;
+  transform: rotate(5deg);
+}
+
+.btn-cta {
+  margin-right: 10px;
+  border: none;
+  font-size: 20px;
+  padding: 6px 12px;
+  background: #ff0000;
+  color: #eaeaea;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+nav ul{
+  display: flex;
+  padding: 20px;
+}
+
+li {
+  list-style-type: none;
+  padding: 10px;
+}
+
+li a {
+  transition: all .5s ease 0s;
+  display: inline-block;
+}
+
+li a:hover {
+  color:    #ff6a3d;
+  transform: rotate(3deg);
+}
+
+a {
+  color: #eaeaea;
+  text-decoration: none;
+}
+
+footer {
+    padding: 0px;
+    text-align: center;
+    background: #1A2238;
+    color: #eaeaea;
+    width: auto;
+}
+
+.container {width: 95%; display: grid; grid-template-columns: 1fr 1fr 1fr 1fr;}
+        
+.info {
+  align-items: left;
+}
+
+select {
+  margin: auto;
+  width: 200px;
+  background: #ff0;
+  color: #000;
+  text-align: center;
+}
+
+option:not(:checked) {
+  background-color: #fff;
+  text-align: center;
+  width: 200px;
+}
+        
+.order {
+  text-align: center;
+}
+
+img {
+    width: 30vh;
+    height: 40vh;
+}
+
+textarea {
+    width: 35vh;
+    height: 40vh;
+}
+
+</style>
+  </head>
+  <body bgcolor=lightblue oncontextmenu="return false;">
+    <header>
+      <h1 class="logo"><a href="https://www.onistore.my.id/">ONISTORE</a></h1>
+      <nav>
+        <ul>
+          <li><a href="https://www.onistore.my.id/cloud/">CLOUDS</a></li>
+          <li><a href="https://www.onistore.my.id/topup/">TOP UP GAME</a></li>
+      <li><a href="https://www.onistore.my.id/suntik/">SUNTIK SOSMED</a></li>
+          <li><a href="https://www.onistore.my.id/allproduk/">ALL PRODUK</a></li>
+      <li><a href="https://kontak.onistore.my.id/">KONTAK</a></li>
+        </ul>
+      </nav>
+      <a class="btn-cta" href="https://www.youtube.com/@syaroniyt">SUBSCRIBE</a>
+    </header>
+    <footer>
+            <p class="title">&copy; Website By Syaroni/Onistore 2024</p>
+        </footer>
+<div class="container">
+    <div class="info">
+    <img src="https://image.onistore.my.id/discord.png">
+    </div>
+    
+    <div class="order">
+        <h1>PRODUK</h1>
+    <p>PILIH VARIAN </p>
+        <select onchange="myFunction(value);">
+            <option value="satu">SETUP BOT</option>
+            <option value="dua">BUILD SERVER DC STORE</option>
+            <option value="tiga">BUILD SERVER DC COMUNITY</option>
+            <option value="empat">CUSTOM LINK DISCORD</option>
+	    <option value="lima">BOOST SERVER</option>
+        </select>
+        <br><br>
+<h1>PRICE<h3 id="result"></h3></h1>
+    </div>
+</div>
+<div class="container">
+    <div>
+    <h3 align="center">NOTE</h3>
+<textarea disabled>
+MALES BIKIN DESCRIPTION LIAT AJA DI DISCORD!
+</textarea> 
+</div>
+    <div class="order">
+<h1>INGIN BELI? CLICK DI BAWAH</h1>
+<a class="btn-cta" href="https://www.onistore.my.id/onistore/cekout.html">CHECKOUT</a>
+    </div>
+</div>
+
+
+      
+      <script>
+function myFunction($value)
+{       
+    if($value=="satu")
+    {document.getElementById("result").innerHTML = "Rp.1.250";}
+    else if($value=="dua")
+    {document.getElementById("result").innerHTML = "Rp.10.000";}
+     else if($value=="tiga")
+    {document.getElementById("result").innerHTML = "Rp.5.000";}
+    else if($value=="empat")
+    {document.getElementById("result").innerHTML = "Rp.10.000";}
+    else if($value=="lima")
+    {document.getElementById("result").innerHTML = "KE DISCORD AJA PRICELIST BOOST SERVER NYA!";}
+}
+</script>
+  </body>
+</html>
