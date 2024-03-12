@@ -3,7 +3,7 @@
     <meta charset="utf-8" />
     <link rel="shortcut icon" type="x-icon" href="https://www.onistore.my.id/logo%20store.png"/>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>VIRTUAL PRIVATE SERVER</title>
+    <title>BASIC HOSTING</title>
     <style>
 	*, html, body {
   margin: 0;
@@ -85,8 +85,32 @@ footer {
   align-items: left;
 }
 
+select {
+  margin: auto;
+  width: 200px;
+  background: #ff0;
+  color: #000;
+  text-align: center;
+}
+
+option:not(:checked) {
+  background-color: #fff;
+  text-align: center;
+  width: 200px;
+}
+	    
 .order {
   text-align: center;
+}
+
+img {
+	width: 30vh;
+	height: 40vh;
+}
+
+textarea {
+	width: 35vh;
+	height: 40vh;
 }
 
 </style>
@@ -103,20 +127,61 @@ footer {
 	  <li><a href="https://kontak.onistore.my.id/">KONTAK</a></li>
         </ul>
       </nav>
-      <button class="btn-cta" onclick="rediryoutube()">SUBSCRIBE</button>
+      <a class="btn-cta" href="https://www.youtube.com/@syaroniyt">SUBSCRIBE</a>
     </header>
     <footer>
 			<p class="title">&copy; Website By Syaroni/Onistore 2024</p>
 		</footer>
 <div class="container">
     <div class="info">
-    <img src="ff.png" width="300" height="400">
+    <img src="https://image.onistore.my.id/hosting.png">
     </div>
-	<div>
-	</div>
+	
     <div class="order">
-    <h1>PRODUK</h1>
+	    <h1>PRODUK</h1>
+    <p>PILIH VARIAN </p>
+        <select onchange="myFunction(value);">
+            <option value="satu">RAM 1GB CPU 100% STORAGE 5GB</option>
+            <option value="dua">RAM 2GB CPU 100% STORAGE 10GB</option>
+            <option value="tiga">RAM 3GB CPU 200% STORAGE 15GB</option>
+	    <option value="empat">RAM 4GB CPU 200% STORAGE 20GB</option>
+        </select>
+	    <br><br>
+<h1>PRICE<h3 id="result"></h3></h1>
     </div>
 </div>
+<div class="container">
+	<div>
+	<h3 align="center">NOTE</h3>
+<textarea disabled>
+* Ram paling besar 8gb
+* bayar terlebih dahulu
+* tanya ketersediaan
+* no complaint
+* berlaku 20-25 hari
+* keluar discord = hapus panel
+</textarea>	
+</div>
+	<div class="order">
+<h1>INGIN BELI? CLICK DI BAWAH</h1>
+<a class="btn-cta" href="https://www.onistore.my.id/onistore/cekout.html">CHECKOUT</a>
+	</div>
+</div>
+
+
+	  
+	  <script>
+function myFunction($value)
+{       
+    if($value=="satu")
+    {document.getElementById("result").innerHTML = "Rp.4.000";}
+    else if($value=="dua")
+    {document.getElementById("result").innerHTML = "Rp.7.000";}
+     else if($value=="tiga")
+    {document.getElementById("result").innerHTML = "Rp.13.000";}
+    else if($value=="empat")
+    {document.getElementById("result").innerHTML = "Rp.17.000";}
+}
+</script>
   </body>
 </html>
