@@ -3,9 +3,9 @@
     <meta charset="utf-8" />
     <link rel="shortcut icon" type="x-icon" href="https://www.onistore.my.id/logo%20store.png"/>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>VIRTUAL PRIVATE SERVER</title>
+    <title>SPOTIFY</title>
     <style>
-	*, html, body {
+    *, html, body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -62,7 +62,7 @@ li a {
 }
 
 li a:hover {
-  color:	#ff6a3d;
+  color:    #ff6a3d;
   transform: rotate(3deg);
 }
 
@@ -72,21 +72,45 @@ a {
 }
 
 footer {
-	padding: 0px;
-	text-align: center;
-	background: #1A2238;
-	color: #eaeaea;
-  	width: auto;
+    padding: 0px;
+    text-align: center;
+    background: #1A2238;
+    color: #eaeaea;
+    width: auto;
 }
 
 .container {width: 95%; display: grid; grid-template-columns: 1fr 1fr 1fr 1fr;}
-	    
+        
 .info {
   align-items: left;
 }
 
+select {
+  margin: auto;
+  width: 200px;
+  background: #ff0;
+  color: #000;
+  text-align: center;
+}
+
+option:not(:checked) {
+  background-color: #fff;
+  text-align: center;
+  width: 200px;
+}
+        
 .order {
   text-align: center;
+}
+
+img {
+    width: 30vh;
+    height: 40vh;
+}
+
+textarea {
+    width: 35vh;
+    height: 40vh;
 }
 
 </style>
@@ -98,25 +122,101 @@ footer {
         <ul>
           <li><a href="https://www.onistore.my.id/cloud/">CLOUDS</a></li>
           <li><a href="https://www.onistore.my.id/topup/">TOP UP GAME</a></li>
-	  <li><a href="https://www.onistore.my.id/suntik/">SUNTIK SOSMED</a></li>
+      <li><a href="https://www.onistore.my.id/suntik/">SUNTIK SOSMED</a></li>
           <li><a href="https://www.onistore.my.id/allproduk/">ALL PRODUK</a></li>
-	  <li><a href="https://kontak.onistore.my.id/">KONTAK</a></li>
+      <li><a href="https://kontak.onistore.my.id/">KONTAK</a></li>
         </ul>
       </nav>
-      <button class="btn-cta" onclick="rediryoutube()">SUBSCRIBE</button>
+      <a class="btn-cta" href="https://www.youtube.com/@syaroniyt">SUBSCRIBE</a>
     </header>
     <footer>
-			<p class="title">&copy; Website By Syaroni/Onistore 2024</p>
-		</footer>
+            <p class="title">&copy; Website By Syaroni/Onistore 2024</p>
+        </footer>
+<script type="text/javascript">
+	atOptions = {
+		'key' : '93452d5a263cc2e7c5874d05e97a5176',
+		'format' : 'iframe',
+		'height' : 50,
+		'width' : 320,
+		'params' : {}
+	};
+	document.write('<scr' + 'ipt type="text/javascript" src="//www.topcreativeformat.com/93452d5a263cc2e7c5874d05e97a5176/invoke.js"></scr' + 'ipt>');
+</script><script type="text/javascript">
+	atOptions = {
+		'key' : '93452d5a263cc2e7c5874d05e97a5176',
+		'format' : 'iframe',
+		'height' : 50,
+		'width' : 320,
+		'params' : {}
+	};
+	document.write('<scr' + 'ipt type="text/javascript" src="//www.topcreativeformat.com/93452d5a263cc2e7c5874d05e97a5176/invoke.js"></scr' + 'ipt>');
+</script><script type="text/javascript">
+	atOptions = {
+		'key' : '93452d5a263cc2e7c5874d05e97a5176',
+		'format' : 'iframe',
+		'height' : 50,
+		'width' : 320,
+		'params' : {}
+	};
+	document.write('<scr' + 'ipt type="text/javascript" src="//www.topcreativeformat.com/93452d5a263cc2e7c5874d05e97a5176/invoke.js"></scr' + 'ipt>');
+</script><script type="text/javascript">
+	atOptions = {
+		'key' : '93452d5a263cc2e7c5874d05e97a5176',
+		'format' : 'iframe',
+		'height' : 50,
+		'width' : 320,
+		'params' : {}
+	};
+	document.write('<scr' + 'ipt type="text/javascript" src="//www.topcreativeformat.com/93452d5a263cc2e7c5874d05e97a5176/invoke.js"></scr' + 'ipt>');
+</script>
 <div class="container">
     <div class="info">
-    <img src="ff.png" width="300" height="400">
+    <img src="https://image.onistore.my.id/disney.png">
     </div>
-	<div>
-	</div>
+    
     <div class="order">
-    <h1>PRODUK</h1>
+        <h1>PRODUK</h1>
+    <p>PILIH VARIAN </p>
+        <select onchange="myFunction(value);">
+            <option value="satu">SHARING 1BULAN 1P4U</option>
+            <option value="dua">SHARING 1BULAN 1P2U</option>
+            <option value="tiga">PRIVATE 1BULAN</option>
+        </select>
+        <br><br>
+<h1>PRICE<h3 id="result"></h3></h1>
     </div>
 </div>
+<div class="container">
+    <div>
+    <h3 align="center">NOTE</h3>
+<textarea disabled>
+* bayar telebih dahulu
+* tanya ketersediaan
+* otp 1x sharing
+* otp 3x private
+
+</textarea> 
+</div>
+    <div class="order">
+<h1>INGIN BELI? CLICK DI BAWAH</h1>
+<a class="btn-cta" href="https://www.onistore.my.id/onistore/cekout.html">CHECKOUT</a>
+    </div>
+</div>
+
+<script type='text/javascript' src='//pl22784780.profitablegatecpm.com/5f/82/7b/5f827be06657890d0999fceba58fe104.js'></script>
+<script async="async" data-cfasync="false" src="//pl22776149.profitablegatecpm.com/e571937eda23a46d53b6359d8cb44aa0/invoke.js"></script>
+<div id="container-e571937eda23a46d53b6359d8cb44aa0"></div>
+      
+      <script>
+function myFunction($value)
+{       
+    if($value=="satu")
+    {document.getElementById("result").innerHTML = "Rp.20.000";}
+    else if($value=="dua")
+    {document.getElementById("result").innerHTML = "Rp.30.000";}
+     else if($value=="tiga")
+    {document.getElementById("result").innerHTML = "Rp.40.000";}
+}
+</script>
   </body>
 </html>
